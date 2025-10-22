@@ -1,0 +1,13 @@
+# Archivos temporales
+*.log
+*.tmp
+
+# Carpetas de compilación
+bin/
+obj/
+
+# Dependencias
+node_modules/
+
+# Configuración local
+.env
