@@ -50,6 +50,12 @@
             this.label4 = new System.Windows.Forms.Label();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.label7 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabControl3 = new System.Windows.Forms.TabControl();
             this.tabPage5 = new System.Windows.Forms.TabPage();
@@ -57,24 +63,20 @@
             this.tabControl4 = new System.Windows.Forms.TabControl();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.tabPage8 = new System.Windows.Forms.TabPage();
-            this.label6 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            this.tabPage4.SuspendLayout();
             this.tabControl3.SuspendLayout();
             this.tabControl4.SuspendLayout();
             this.tabPage8.SuspendLayout();
@@ -209,7 +211,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(609, 308);
+            this.tabPage2.Size = new System.Drawing.Size(379, 180);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Crear Cuenta";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -287,7 +289,7 @@
             this.tabControl2.Location = new System.Drawing.Point(12, 372);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(339, 322);
+            this.tabControl2.Size = new System.Drawing.Size(339, 258);
             this.tabControl2.TabIndex = 3;
             // 
             // tabPage3
@@ -301,17 +303,82 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(331, 296);
+            this.tabPage3.Size = new System.Drawing.Size(331, 232);
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "tabPage3";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // button8
+            // 
+            this.button8.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Location = new System.Drawing.Point(209, 155);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(106, 44);
+            this.button8.TabIndex = 8;
+            this.button8.Text = "Cancelar";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(97, 155);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(106, 44);
+            this.button7.TabIndex = 7;
+            this.button7.Text = "Confirmar";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.Location = new System.Drawing.Point(50, 124);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(191, 17);
+            this.radioButton6.TabIndex = 5;
+            this.radioButton6.TabStop = true;
+            this.radioButton6.Text = "Registrar pérdidas de una inversión";
+            this.radioButton6.UseVisualStyleBackColor = true;
+            // 
+            // radioButton5
+            // 
+            this.radioButton5.AutoSize = true;
+            this.radioButton5.Location = new System.Drawing.Point(50, 91);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(200, 17);
+            this.radioButton5.TabIndex = 4;
+            this.radioButton5.TabStop = true;
+            this.radioButton5.Text = "Registrar ganancias de una inversión";
+            this.radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Location = new System.Drawing.Point(50, 54);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(133, 17);
+            this.radioButton4.TabIndex = 3;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "Registrar una inversión";
+            this.radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(93, 12);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(139, 19);
+            this.label7.TabIndex = 2;
+            this.label7.Text = "Que deseá realizar:";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.label8);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(192, 74);
+            this.tabPage4.Size = new System.Drawing.Size(331, 232);
             this.tabPage4.TabIndex = 1;
             this.tabPage4.Text = "tabPage4";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -361,7 +428,7 @@
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(331, 296);
+            this.tabPage7.Size = new System.Drawing.Size(331, 236);
             this.tabPage7.TabIndex = 0;
             this.tabPage7.Text = "tabPage7";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -382,37 +449,25 @@
             this.tabPage8.Text = "tabPage8";
             this.tabPage8.UseVisualStyleBackColor = true;
             // 
-            // label6
+            // button6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(79, 12);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(176, 38);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Formato en el que desea \r\ndescargar los registros:\r\n";
+            this.button6.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(195, 173);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(106, 44);
+            this.button6.TabIndex = 7;
+            this.button6.Text = "Cancelar";
+            this.button6.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // button5
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(42, 68);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(46, 17);
-            this.radioButton1.TabIndex = 2;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "CSV";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(42, 102);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(51, 17);
-            this.radioButton2.TabIndex = 3;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Excel";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.button5.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(83, 173);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(106, 44);
+            this.button5.TabIndex = 6;
+            this.button5.Text = "Confirmar";
+            this.button5.UseVisualStyleBackColor = true;
             // 
             // radioButton3
             // 
@@ -425,89 +480,48 @@
             this.radioButton3.Text = "PDF";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // radioButton2
             // 
-            this.button5.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(83, 173);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(106, 44);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "Confirmar";
-            this.button5.UseVisualStyleBackColor = true;
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(42, 102);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(51, 17);
+            this.radioButton2.TabIndex = 3;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Excel";
+            this.radioButton2.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // radioButton1
             // 
-            this.button6.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(195, 173);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(106, 44);
-            this.button6.TabIndex = 7;
-            this.button6.Text = "Cancelar";
-            this.button6.UseVisualStyleBackColor = true;
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(42, 68);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(46, 17);
+            this.radioButton1.TabIndex = 2;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "CSV";
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
-            // label7
+            // label6
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(93, 12);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(139, 19);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "Que deseá realizar:";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(79, 12);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(176, 38);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Formato en el que desea \r\ndescargar los registros:\r\n";
             // 
-            // radioButton4
+            // label8
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(50, 54);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(133, 17);
-            this.radioButton4.TabIndex = 3;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Registrar una inversión";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // radioButton5
-            // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(50, 91);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(200, 17);
-            this.radioButton5.TabIndex = 4;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "Registrar ganancias de una inversión";
-            this.radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton6
-            // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(50, 124);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(191, 17);
-            this.radioButton6.TabIndex = 5;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "Registrar pérdidas de una inversión";
-            this.radioButton6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(97, 205);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(106, 44);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "Confirmar";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(209, 205);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(106, 44);
-            this.button8.TabIndex = 8;
-            this.button8.Text = "Cancelar";
-            this.button8.UseVisualStyleBackColor = true;
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(84, 12);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(144, 19);
+            this.label8.TabIndex = 3;
+            this.label8.Text = "Nombre la inversión";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // form1
             // 
@@ -534,6 +548,8 @@
             this.tabControl2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
             this.tabControl3.ResumeLayout(false);
             this.tabControl4.ResumeLayout(false);
             this.tabPage8.ResumeLayout(false);
@@ -585,6 +601,7 @@
         private System.Windows.Forms.RadioButton radioButton6;
         private System.Windows.Forms.RadioButton radioButton5;
         private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.Label label8;
     }
 }
 
